@@ -9,16 +9,8 @@ public class Estudiante_Diseño {
     private String Modalidad_Estudio;
     private int Cantidad_Asignaturas;
     private int Serial;
-    public Estudiante_Diseño(String cedula, String nombre, String apellido, String telefono, String modalidad_Estudio,
-            int cantidad_Asignaturas, int serial) {
-        Cedula = cedula;
-        Nombre = nombre;
-        Apellido = apellido;
-        Telefono = telefono;
-        Modalidad_Estudio = modalidad_Estudio;
-        Cantidad_Asignaturas = cantidad_Asignaturas;
-        Serial = serial;
-    }
+  
+    
     public String getCedula() {
         return Cedula;
     }

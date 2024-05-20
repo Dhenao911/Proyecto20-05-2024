@@ -10,17 +10,6 @@ public class Estudiante_Ingenieria {
     private float Promedio_acumulado;
     private String Serial;
 
-    public Estudiante_Ingenieria(String cedula, String nombre, String apellido, String telefono,
-            int num_Semestre_Cursado, float promedio_acumulado, String serial) {
-        Cedula = cedula;
-        Nombre = nombre;
-        Apellido = apellido;
-        Telefono = telefono;
-        Num_Semestre_Cursado = num_Semestre_Cursado;
-        Promedio_acumulado = promedio_acumulado;
-        Serial = serial;
-    }
-
     public String getCedula() {
         return Cedula;
     }

@@ -9,15 +9,6 @@ public class Computador_portatil {
     private String Sistema_Operativo;//Puede ser un entero;
     private String Procesador;
 
-    public Computador_portatil(String serial, String marca, float tamano, float precio, String sistema_Operativo,
-            String procesador) {
-        Serial = serial;
-        Marca = marca;
-        Tamano = tamano;
-        Precio = precio;
-        Sistema_Operativo = sistema_Operativo;
-        Procesador = procesador;
-    }
 
     public String getSerial() {
         return Serial;
